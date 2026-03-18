@@ -1,0 +1,24 @@
+Package: usdaplants
+Title: USDA PLANTS Database
+Version: 0.1.0
+Authors@R:
+    person("Kieran", "Healy", , "kjhealy@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "https://orcid.org/0000-0001-9114-981X"))
+Description: A convenience data package providing the USDA PLANTS database
+    as tibbles. Includes plant taxonomy, growth characteristics, and
+    state-level distribution data for over 32,000 plant species in the
+    United States.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.1.0),
+    tibble
+LazyData: true
+LazyDataCompression: xz
+Suggests:
+    dplyr,
+    stringr,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
