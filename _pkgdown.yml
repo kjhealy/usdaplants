@@ -1,0 +1,19 @@
+url: https://kjhealy.github.io/usdaplants/
+template:
+  bootstrap: 5
+  bslib:
+    base_font: {google: "IBM Plex Sans"}
+    heading_font: {google: "IBM Plex Sans"}
+    code_font: {google: "IBM Plex Mono"}
+
+reference:
+- title: Datasets
+  desc: USDA PLANTS data
+  contents:
+  - plants
+  - plant_characteristics
+  - plant_distribution
+
+- title: Package
+  contents:
+  - usdaplants-package

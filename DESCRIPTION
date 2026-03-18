@@ -22,3 +22,6 @@ Suggests:
     stringr,
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
+URL: https://kjhealy.github.io/usdaplants/,
+    https://github.com/kjhealy/usdaplants
+BugReports: https://github.com/kjhealy/usdaplants/issues
